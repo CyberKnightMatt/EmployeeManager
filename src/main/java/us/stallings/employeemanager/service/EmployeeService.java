@@ -1,6 +1,7 @@
 package us.stallings.employeemanager.service;
 
 import org.springframework.stereotype.Service;
+import us.stallings.employeemanager.exceptions.UserNotFoundException;
 import us.stallings.employeemanager.model.Employee;
 import us.stallings.employeemanager.repo.EmployeeRepo;
 
